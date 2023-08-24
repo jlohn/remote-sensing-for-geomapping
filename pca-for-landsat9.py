@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 # PCA for Landsat9 SWIR scenes 
+# does DOS1 atmospherics pre processing
 
 # collapses the first n-1 dimensions of arr, PCA's, then rewrites the last dimension
 # with the pca coefficients and returns the rewritten array plus the principal components
