@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="portugalaldeiashapefile" id="portugalaldeiashapefile">
+	<SimpleField name="aldeia" type="string"></SimpleField>
+</Schema>
+<Folder><name>portugalaldeiashapefile</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-7.84194577880388,41.6354375821302 -7.74707514771605,41.6344353820344 -7.74707514771605,41.5883173333296 -7.8429514745398,41.5893202501816 -7.84194577880388,41.6354375821302</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
